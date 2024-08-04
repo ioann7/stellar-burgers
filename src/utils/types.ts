@@ -1,5 +1,7 @@
+export type TIngredientId = string;
+
 export type TIngredient = {
-  _id: string;
+  _id: TIngredientId;
   name: string;
   type: string;
   proteins: number;
